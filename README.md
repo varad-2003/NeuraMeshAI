@@ -24,6 +24,14 @@ It provides an AI-powered conversational interface with specialized agents for g
 - 🌐 API Gateway architecture
 - 🗃️ MongoDB persistence
 
+
+## 🎥 Demo Video
+
+[![NeuraMesh AI Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+A walkthrough of NeuraMesh AI, including the AI agent workflow, chat, coding, search, file generation, authentication, and billing flow.
+
+
 ## 🏗️ Architecture
 
 NeuraMesh AI follows a microservices-based backend architecture.

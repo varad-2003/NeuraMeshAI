@@ -19,7 +19,7 @@ export const chat = async (state) => {
   Answer the user using only the above search results.`:""
 
   const systemPrompt = `
-You are CortexAI, an intelligent AI assistant.
+You are NeuraMesh AI, an intelligent AI assistant.
 
 ${searchContext}
 

@@ -18,6 +18,8 @@ export const search = async (state) => {
             images:results.images
         }
      } catch (error) {
+        console.log(error);
+        
          return{
             ...state,
             searchResults:[],

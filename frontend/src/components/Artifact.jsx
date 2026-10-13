@@ -45,7 +45,7 @@ const Artifact = () => {
 </head>
 
 <body>
-  ${htmlFile.content || ""}
+  ${htmlFile?.content || ""}
   <script>
     ${jsFile?.content || ""}
   </script>

@@ -50,6 +50,8 @@ const fileName = `image-${Date.now()}.png`
 await uploadToS3(fileName, buffer, "image/png")
 const downloadUrl = await getFromS3(fileName, 60*10)
 
+console.log("🔥 AWS S3 SIGNED URL:", downloadUrl)
+
 return {
     ...state,
     aiResponse:`

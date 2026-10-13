@@ -159,9 +159,9 @@ const toggleMic = () => {
       label: "PPT",
     },
     {
-      id: "image",
+      id: "imagegen",
       icon: ImageIcon,
-      label: "Image",
+      label: "imagegen",
     },
     {
       id: "search",

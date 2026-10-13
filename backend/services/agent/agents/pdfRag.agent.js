@@ -8,6 +8,8 @@ import { deductCredits } from "../utils/deductCredits.js"
 import { checkAgentLimit } from "../config/agentLimit.js";
 export const pdfRag = async (state) => {
     try {
+        console.log("RAG Agent Hits");
+        
         await checkAgentLimit(state.userId, "pdf")
         const buffer = fs.readFileSync(state.file.path)
         const pdf = new PDFParse({

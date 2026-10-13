@@ -42,7 +42,7 @@ export const router = async (state) => {
     - pdf
     - ppt
     - search
-    - image
+    - imagegen
     
     Rules:
     

@@ -166,12 +166,14 @@ function MessageBubble({ role, content, images }) {
             img: ({ src }) => {
   if (!src) return null;
 
+  console.log("IMAGE URL FROM MARKDOWN:", src);
+
   return (
     <img
       src={src}
       onClick={() => setLightBox(src)}
       loading="lazy"
-      onError={(e) => e.currentTarget.remove()}
+      // onError={(e) => e.currentTarget.remove()}
       className="w-40 h-28 rounded-xl object-cover border border-white/10 cursor-zoom-in hover:opacity-90 transition"
     />
   );
